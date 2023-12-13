@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './App.css'
 
 const App = () => {
-  const [hour, setHour] = useState(0)
+  const [hour] = useState(0)
   const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
   const [timer, setTimer] = useState(false)
